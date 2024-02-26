@@ -1,8 +1,8 @@
 <?php
 
-namespace App\core\form ;
+namespace emadisavi\phpmvc\form ;
 
-use App\core\Model;
+use emadisavi\phpmvc\Model;
 
 class Form {
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\core;
+namespace emadisavi\phpmvc;
 
-use App\core\exceptions\NotFoundException;
+use emadisavi\phpmvc\exceptions\NotFoundException;
 
 class Router {
 
@@ -42,7 +42,7 @@ class Router {
         }
 
         if(is_array($callback)) {
-            /** @var \App\core\Controller $controller */
+            /** @var \emadisavi\phpmvc\Controller $controller */
             $controller = $callback[0] = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

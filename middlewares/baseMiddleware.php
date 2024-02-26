@@ -1,6 +1,6 @@
 <?php
 
-namespace App\core\middlewares;
+namespace emadisavi\phpmvc\middlewares;
 
 abstract class BaseMiddleware {
 

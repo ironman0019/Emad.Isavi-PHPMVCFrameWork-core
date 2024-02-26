@@ -1,16 +1,16 @@
 <?php
 
-namespace App\core;
+namespace emadisavi\phpmvc;
 
-use App\core\Application;
-use App\core\middlewares\BaseMiddleware;
+use emadisavi\phpmvc\Application;
+use emadisavi\phpmvc\middlewares\BaseMiddleware;
 
 class Controller {
 
     public string $layout = 'main';
     public string $action = '';
     /** 
-     * @var \App\core\middlewares\BaseMiddleware[]
+     * @var \emadisavi\phpmvc\middlewares\BaseMiddleware[]
     */
     protected array $middlewares = [];
 

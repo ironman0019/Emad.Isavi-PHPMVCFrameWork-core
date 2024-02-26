@@ -1,6 +1,6 @@
 <?php
 
-namespace App\core;
+namespace emadisavi\phpmvc;
 
 use App\models\RegisterModal;
 

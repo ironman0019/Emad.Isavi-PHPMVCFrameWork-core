@@ -1,0 +1,15 @@
+{
+    "name": "emadisavi/php-mvc-core",
+    "autoload": {
+        "psr-4": {
+            "emadisavi\\phpmvc\\": "."
+        }
+    },
+    "authors": [
+        {
+            "name": "Emad Isavi",
+            "email": "emadesavi@gmail.com"
+        }
+    ],
+    "require": {}
+}
